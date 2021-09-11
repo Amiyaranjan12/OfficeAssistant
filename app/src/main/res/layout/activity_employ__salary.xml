@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employ_Salary_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:background="@color/notification_Abar_color"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/salaryback_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/ic_baseline_arrow_back_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salary Info"
+                android:textColor="@color/helpTitle_color"
+                android:paddingTop="3dp"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/backsl"
+                android:textSize="19sp"/>
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/eide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:text="Employee ID        :"/>
+            <TextView
+                android:id="@+id/admin_employId"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/eide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="13dp"
+                android:textSize="20sp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="9dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/enae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:text="Employee Name :"/>
+            <TextView
+                android:id="@+id/admin_employName"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/enae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="13dp"
+                android:textSize="20sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_marginTop="67dp"
+            android:layout_width="match_parent"
+            android:layout_height="53dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="1dp"
+                app:cardElevation="5dp"
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:background="@drawable/salaryreporteditboxdesign"
+                    android:layout_margin="1dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <AutoCompleteTextView
+                        android:id="@+id/employSalaryMonthtext"
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="10dp"
+                        android:textSize="20sp"
+                        android:background="#07000000"
+                        android:hint="Choose a month"/>
+
+
+
+                    <ImageView
+                        android:id="@+id/employ_monthOpImage"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/employSalaryMonthtext"
+                        android:layout_alignBottom="@+id/employSalaryMonthtext"
+                        android:layout_toRightOf="@id/employSalaryMonthtext"
+                        android:src="@drawable/ic_baseline_arrow_drop_down_24"/>
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="24dp"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/t1"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:background="@drawable/salaryreporteditboxdesign"
+
+                    android:layout_margin="1dp"
+
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:id="@+id/employ_SalaryYeartext"
+                        android:layout_centerInParent="true"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Year"
+                        android:textSize="17sp"
+                        />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="33dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#F6F1F1"
+                    android:background="#3D5AFE"
+                    android:text="Generate  Report"
+                    android:id="@+id/salary_genBtn"
+                    android:gravity="center"
+                    android:layout_width="150dp"
+                    android:layout_height="35dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#76FF03"
+                android:text="@string/employ_salary_bottomtext"
+                android:gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

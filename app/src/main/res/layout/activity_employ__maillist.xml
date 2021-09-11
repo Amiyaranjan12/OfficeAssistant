@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employ_MailList_Activity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+
+       <RelativeLayout
+           android:background="@color/notification_Abar_color"
+           android:layout_width="match_parent"
+           android:layout_height="50dp">
+
+           <ImageView
+               android:id="@+id/mailistback_btn"
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/ic_baseline_arrow_back_24" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="MAILING LIST"
+               android:textColor="@color/helpTitle_color"
+               android:paddingTop="2dp"
+               android:layout_centerInParent="true"
+               android:fontFamily="@font/backsl"
+               android:textSize="17sp"/>
+
+
+
+
+       </RelativeLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <RelativeLayout
+               android:layout_marginLeft="15dp"
+               android:layout_marginRight="15dp"
+               android:layout_marginTop="17dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <androidx.cardview.widget.CardView
+                   android:id="@+id/TextViewCeo"
+                   android:layout_margin="3dp"
+                   android:layout_width="140dp"
+                   android:layout_height="60dp"
+                   android:layout_alignParentLeft="true"
+                   app:cardElevation="27dp">
+
+
+                   <TextView
+                       android:gravity="center"
+                       android:textColor="@color/black"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:text="CEO"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+
+
+               </androidx.cardview.widget.CardView>
+               <androidx.cardview.widget.CardView
+                   android:id="@+id/TextViewCto"
+                   android:layout_margin="3dp"
+                   android:layout_width="140dp"
+                   android:layout_height="60dp"
+                   android:layout_alignParentRight="true"
+                   app:cardElevation="27dp">
+
+
+                   <TextView
+                       android:gravity="center"
+                       android:textColor="@color/black"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:text="CTO"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+
+
+               </androidx.cardview.widget.CardView>
+
+
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_marginLeft="15dp"
+               android:layout_marginRight="15dp"
+               android:layout_marginTop="17dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <androidx.cardview.widget.CardView
+                   android:id="@+id/TextViewCoo"
+                   android:layout_margin="3dp"
+                   android:layout_width="140dp"
+                   android:layout_height="60dp"
+                   android:layout_alignParentLeft="true"
+                   app:cardElevation="27dp">
+
+
+                   <TextView
+                       android:gravity="center"
+                       android:textColor="@color/black"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:text="COO"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+
+
+               </androidx.cardview.widget.CardView>
+               <androidx.cardview.widget.CardView
+                   android:id="@+id/TextViewCmo"
+                   android:layout_margin="3dp"
+                   android:layout_width="140dp"
+                   android:layout_height="60dp"
+                   android:layout_alignParentRight="true"
+                   app:cardElevation="27dp">
+
+
+                   <TextView
+                       android:gravity="center"
+                       android:textColor="@color/black"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:text="CMO"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+
+
+               </androidx.cardview.widget.CardView>
+
+
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_marginLeft="15dp"
+               android:layout_marginRight="15dp"
+               android:layout_marginTop="17dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <androidx.cardview.widget.CardView
+                   android:id="@+id/TextViewHr"
+                   android:layout_margin="3dp"
+                   android:layout_width="140dp"
+                   android:layout_height="60dp"
+                   android:layout_alignParentLeft="true"
+                   app:cardElevation="27dp">
+
+
+                   <TextView
+                       android:gravity="center"
+                       android:textColor="@color/black"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:text="HR"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+
+
+               </androidx.cardview.widget.CardView>
+               <androidx.cardview.widget.CardView
+                   android:id="@+id/TextViewManager"
+                   android:layout_margin="3dp"
+                   android:layout_width="140dp"
+                   android:layout_height="60dp"
+                   android:layout_alignParentRight="true"
+                   app:cardElevation="27dp">
+
+
+                   <TextView
+                       android:gravity="center"
+                       android:textColor="@color/black"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:text="Manager"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+
+
+               </androidx.cardview.widget.CardView>
+
+
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_marginLeft="15dp"
+               android:layout_marginRight="15dp"
+               android:layout_marginTop="17dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <androidx.cardview.widget.CardView
+                   android:id="@+id/TextViewAdmin"
+                   android:layout_margin="3dp"
+                   android:layout_width="140dp"
+                   android:layout_height="60dp"
+                   android:layout_alignParentLeft="true"
+                   app:cardElevation="27dp">
+
+
+                   <TextView
+                       android:gravity="center"
+                       android:textColor="@color/black"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:text="ADMIN(DB)"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+
+
+               </androidx.cardview.widget.CardView>
+               <androidx.cardview.widget.CardView
+                   android:id="@+id/TextViewClerk"
+                   android:layout_margin="3dp"
+                   android:layout_width="140dp"
+                   android:layout_height="60dp"
+                   android:layout_alignParentRight="true"
+                   app:cardElevation="27dp">
+
+
+                   <TextView
+                       android:gravity="center"
+                       android:textColor="@color/black"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:text="OFFICE CLERK"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+
+
+               </androidx.cardview.widget.CardView>
+
+
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_marginLeft="15dp"
+               android:layout_marginRight="15dp"
+               android:layout_marginTop="17dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <androidx.cardview.widget.CardView
+                   android:id="@+id/TextViewTeam"
+                   android:layout_margin="3dp"
+                   android:layout_width="140dp"
+                   android:layout_height="60dp"
+                   android:layout_alignParentLeft="true"
+                   app:cardElevation="27dp">
+
+
+                   <TextView
+                       android:gravity="center"
+                       android:textColor="@color/black"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:text="TEAM LEADER"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+
+
+               </androidx.cardview.widget.CardView>
+               <androidx.cardview.widget.CardView
+                   android:id="@+id/TextViewDataClerk"
+                   android:layout_margin="3dp"
+                   android:layout_width="140dp"
+                   android:layout_height="60dp"
+                   android:layout_alignParentRight="true"
+                   app:cardElevation="27dp">
+
+
+                   <TextView
+                       android:gravity="center"
+                       android:textColor="@color/black"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:text="DATA-ENTRY CLERK"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+
+
+               </androidx.cardview.widget.CardView>
+
+
+           </RelativeLayout>
+
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

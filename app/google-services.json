@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "330870555157",
+    "project_id": "officeassistant-8faee",
+    "storage_bucket": "officeassistant-8faee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330870555157:android:ec5b3bca72989f67ef441c",
+        "android_client_info": {
+          "package_name": "com.example.officeassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330870555157-d99pegohdmdqa9jbtmnh355ji08vt4uo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.officeassistant",
+            "certificate_hash": "68c9217f6b3a796ea3c0f4fa608272356ecfda80"
+          }
+        },
+        {
+          "client_id": "330870555157-n5f3un0iv9o43bsnurf9o4on94jadevc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2JYthhVdf1CPbn69PEzEAmS-XbcJ5vn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330870555157-n5f3un0iv9o43bsnurf9o4on94jadevc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

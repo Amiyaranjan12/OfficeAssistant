@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/employabout_card_design"/>
+    <corners android:bottomRightRadius="43dp" android:bottomLeftRadius="43dp"></corners>
+</shape>

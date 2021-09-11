@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employ_Attendance_Activity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <RelativeLayout
+           android:background="@color/notification_Abar_color"
+           android:layout_width="match_parent"
+           android:layout_height="60dp">
+
+           <ImageView
+               android:id="@+id/attback_btn"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_marginTop="17dp"
+               android:background="@drawable/ic_baseline_arrow_back_24" />
+           <TextView
+               android:layout_marginTop="12dp"
+               android:id="@+id/tem1"
+               android:layout_alignParentTop="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/attendanceBar"
+               android:textColor="@color/helpTitle_color"
+               android:layout_centerInParent="true"
+               android:fontFamily="@font/backsl"
+               android:textSize="18sp"/>
+
+           <TextView
+               android:textColor="@color/white"
+               android:layout_below="@+id/tem1"
+               android:layout_centerInParent="true"
+               android:fontFamily="@font/backsl"
+               android:gravity="center"
+               android:layout_marginBottom="7dp"
+               android:id="@+id/EA_dateText"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+
+
+
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_marginTop="4dp"
+           android:layout_width="wrap_content"
+           android:layout_height="45dp">
+
+           <TextView
+               android:id="@+id/attendtext"
+               android:paddingTop="7dp"
+               android:layout_marginLeft="10dp"
+               android:fontFamily="@font/backsl"
+               android:textStyle="bold"
+               android:layout_width="wrap_content"
+               android:textColor="@color/black"
+               android:layout_height="wrap_content"
+               android:text="This month :"
+               android:textSize="23sp"
+               />
+
+           <RelativeLayout
+               android:id="@+id/teeep"
+               android:layout_marginLeft="5dp"
+               android:layout_toRightOf="@+id/attendtext"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent">
+
+               <ImageView
+                   android:id="@+id/attendIm1"
+                   android:layout_width="19dp"
+                   android:layout_marginTop="9dp"
+                   android:background="@color/attend_present"
+                   android:layout_height="19dp"/>
+
+               <TextView
+                   android:id="@+id/attendPresentText"
+                   android:paddingTop="7dp"
+                   android:layout_marginLeft="10dp"
+                   android:fontFamily="@font/backsl"
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="23sp"
+                   android:layout_toRightOf="@+id/attendIm1"
+                   />
+
+
+
+
+
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_marginLeft="5dp"
+               android:layout_toRightOf="@+id/teeep"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <ImageView
+                   android:id="@+id/attendIm2"
+                   android:layout_width="19dp"
+                   android:layout_marginTop="9dp"
+                   android:background="@color/admin_logout_color"
+                   android:layout_height="19dp"/>
+
+               <TextView
+                   android:id="@+id/attendAbsentText"
+                   android:paddingTop="7dp"
+                   android:layout_marginLeft="10dp"
+                   android:fontFamily="@font/backsl"
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="0"
+                   android:textSize="23sp"
+                   android:layout_toRightOf="@+id/attendIm2"
+                   />
+
+
+
+
+
+           </RelativeLayout>
+
+
+
+
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="270dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:weightSum="2">
+
+
+               <org.eazegraph.lib.charts.PieChart
+                   android:id="@+id/Attendpiechart"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:padding="6dp"
+                   android:layout_weight="1"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="18dp"
+                   android:layout_marginBottom="18dp"
+
+                   />
+
+                <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:layout_marginLeft="20dp"
+                   android:orientation="vertical"
+                   android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center_vertical">
+
+                        <View
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/attend_present"/>
+
+
+                        <TextView
+                            android:fontFamily="@font/backsl"
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Present"
+                            android:paddingLeft="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="5dp">
+
+                        <!--View to display the green color icon-->
+                        <View
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/admin_logout_color"/>
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/backsl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Absent"
+                            android:paddingLeft="10dp"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+           </LinearLayout>
+
+
+
+       </RelativeLayout>
+
+
+
+
+       <androidx.cardview.widget.CardView
+           app:cardElevation="17dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginBottom="8dp"
+           android:layout_width="match_parent"
+           android:layout_height="350dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_marginTop="5dp"
+                   android:textStyle="bold"
+                   android:textSize="23sp"
+                   android:gravity="center"
+                   android:id="@+id/scrol_monthtext"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                    />
+
+
+               <sun.bob.mcalendarview.views.ExpCalendarView
+                   android:id="@+id/calendar_exp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginBottom="131dp"
+
+                   />
+
+
+           </LinearLayout>
+
+
+
+
+
+       </androidx.cardview.widget.CardView>
+
+
+
+
+
+   </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

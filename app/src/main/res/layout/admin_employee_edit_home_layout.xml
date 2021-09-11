@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/notification_Abar_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Admin_employeeEditHome_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <ImageView
+                    android:id="@+id/admin_edithomeBack"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="38dp"
+                    android:background="@drawable/ic_baseline_arrow_back_24"
+                    android:layout_height="39dp"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/admin_textEmployeName"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:textSize="29sp"
+                    android:fontFamily="@font/beautifu"
+                   />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/admin_employMailText"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="19sp"
+                    android:textStyle="italic"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/admin_employcard_design"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginTop="44dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/editProfile_btn"
+                    android:elevation="33dp"
+                    android:layout_alignParentLeft="true"
+                    app:cardCornerRadius="9dp"
+                    android:layout_width="155dp"
+                    android:layout_height="127dp">
+                    <RelativeLayout
+                        android:layout_margin="1dp"
+                        android:background="@drawable/admin_employeprofile_box_carddesign"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="23sp"
+                            android:text="Edit Profile"
+                            android:textColor="@color/notification_Abar_color"
+                            />
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:elevation="33dp"
+                    android:layout_alignParentRight="true"
+                    app:cardCornerRadius="9dp"
+                    android:layout_width="155dp"
+                    android:layout_height="127dp">
+                    <RelativeLayout
+                        android:layout_margin="1dp"
+                        android:background="@drawable/admin_employeprofile_box_carddesign"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/admin_updateNotiBtn"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="23sp"
+                            android:text="Add Notification"
+                            android:textColor="@color/notification_Abar_color"
+                            />
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginTop="34dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:elevation="33dp"
+                    android:layout_alignParentLeft="true"
+                    app:cardCornerRadius="9dp"
+                    android:layout_width="155dp"
+                    android:layout_height="127dp">
+                    <RelativeLayout
+                        android:layout_margin="1dp"
+                        android:background="@drawable/admin_employeprofile_box_carddesign"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/admin_eventAddBtn"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="23sp"
+                            android:text="Add Event"
+                            android:textColor="@color/notification_Abar_color"
+                            />
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:elevation="33dp"
+                    android:layout_alignParentRight="true"
+                    app:cardCornerRadius="9dp"
+                    android:layout_width="155dp"
+                    android:layout_height="127dp">
+                    <RelativeLayout
+                        android:layout_margin="1dp"
+                        android:background="@drawable/admin_employeprofile_box_carddesign"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/admin_salarySlipBtn"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="23sp"
+                            android:text="Upload Salary Slip"
+                            android:textColor="@color/notification_Abar_color"
+                            />
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@drawable/admin_remove_employe_btndesign"
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+                <androidx.cardview.widget.CardView
+
+                    app:cardElevation="9dp"
+                    android:layout_margin="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/admin_removeUserBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/admin_logout_color"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:text="REMOVE EMPLOYEE"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

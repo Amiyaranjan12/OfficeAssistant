@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Admin_event.Admin_employ_eventActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:background="@color/notification_Abar_color"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/eventback_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ic_baseline_arrow_back_24" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Event"
+                android:textColor="@color/helpTitle_color"
+                android:paddingTop="3dp"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/backsl"
+                android:textSize="18sp"/>
+
+
+
+
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    app:cardElevation="23dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <LinearLayout
+
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:text="Event 1"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/backsl"
+                            android:textSize="23sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:padding="12dp"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:id="@+id/admin_event1Text"
+                                android:background="@drawable/admin_editprofile_editboxdesign"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:padding="12dp"
+                                android:textSize="19sp"
+                                android:textStyle="italic"
+                                android:id="@+id/admin_eventDetails1Text"
+                                android:background="@drawable/admin_editprofile_editboxdesign"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    app:cardElevation="23dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="17dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <LinearLayout
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_marginTop="10dp"
+
+                            android:textStyle="bold"
+                            android:text="Event 2"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/backsl"
+                            android:textSize="23sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:padding="12dp"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:id="@+id/admin_event2Text"
+                                android:background="@drawable/admin_editprofile_editboxdesign"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:padding="12dp"
+                                android:textSize="19sp"
+                                android:textStyle="italic"
+                                android:id="@+id/admin_eventDetails2Text"
+                                android:background="@drawable/admin_editprofile_editboxdesign"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    app:cardElevation="23dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <LinearLayout
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:text="Event 3"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/backsl"
+                            android:textSize="23sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:padding="12dp"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:id="@+id/admin_event3Text"
+                                android:background="@drawable/admin_editprofile_editboxdesign"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:padding="12dp"
+                                android:textSize="19sp"
+                                android:textStyle="italic"
+                                android:id="@+id/admin_eventDetails3Text"
+                                android:background="@drawable/admin_editprofile_editboxdesign"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    app:cardElevation="23dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <LinearLayout
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:text="Event 4"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/backsl"
+                            android:textSize="23sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:padding="12dp"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:id="@+id/admin_event4Text"
+                                android:background="@drawable/admin_editprofile_editboxdesign"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:padding="12dp"
+                                android:textSize="19sp"
+                                android:textStyle="italic"
+                                android:id="@+id/admin_eventDetails4Text"
+                                android:background="@drawable/admin_editprofile_editboxdesign"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    app:cardElevation="23dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <LinearLayout
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:text="Event 5"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/backsl"
+                            android:textSize="23sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:padding="12dp"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:id="@+id/admin_event5Text"
+                                android:background="@drawable/admin_editprofile_editboxdesign"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:padding="12dp"
+                                android:textSize="19sp"
+                                android:textStyle="italic"
+                                android:id="@+id/admin_eventDetails5Text"
+                                android:background="@drawable/admin_editprofile_editboxdesign"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+                <RelativeLayout
+                    android:id="@+id/admin_employeNotitBtn"
+                    android:background="@drawable/login_butt_design"
+                    android:layout_margin="25dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp">
+
+                    <TextView
+                        android:id="@+id/admin_employEventBtn"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:text="Save Changes"
+                        android:layout_centerInParent="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
