@@ -1,7 +1,6 @@
 # OfficeAssistant
     Admin Activity
 <img src="https://user-images.githubusercontent.com/69616297/138559457-43a0764e-33b1-4078-aebc-28ee1f66d0bb.png" width="300" height="500">
-<img src="https://user-images.githubusercontent.com/69616297/138559457-43a0764e-33b1-4078-aebc-28ee1f66d0bb.png" width="300" height="500">
 <img src="https://user-images.githubusercontent.com/69616297/138559924-369dc255-d8f3-4519-9859-02ce9fde6553.png" width="300" height="500">
 <img src="https://user-images.githubusercontent.com/69616297/138559930-fa5db2c2-54f4-4c7a-a8a5-ae8763029fdb.png" width="300" height="500">
 <img src="https://user-images.githubusercontent.com/69616297/138559932-1b786e7d-623b-411f-adba-74a209aabb66.png" width="300" height="500">
